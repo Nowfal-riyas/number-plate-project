@@ -1,0 +1,57 @@
+.user_find_app{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.user_find_app > input{
+    background-color: #f7f7f7;
+    width:350px;
+    padding: 15px 30px;
+    margin: 5px 20px;
+    border-radius:50px;
+    border: 2px solid f6f5f5;
+}
+
+.user_find_app > button{
+    padding: 0 25px;
+    height: 45px;
+    margin-top:8px;
+    background-color: #43766C;
+    border-radius:50px;
+    color:whitesmoke;
+    font-size: 16px;
+    font-weight: 600;
+    cursor:pointer;
+}
+
+.user_find_app > button:hover{
+    background-color: #495E57;
+    color:black;
+}
+
+.user_list{
+    background-color: #FAF9F0;
+    width:590px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-left: 350px;
+    border-radius: 20px;
+}
+.user_list>p{
+margin: 10px 80px;
+font-size: 24px;
+font-weight: 500;
+}
+.user_list>ul{
+    margin-left: 100px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.user_list>ul>li{
+    margin-top: 10px;
+}
+
+

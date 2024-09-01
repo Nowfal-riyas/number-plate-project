@@ -1,0 +1,151 @@
+.result {
+  display: grid;
+  grid-template-rows: 40px 40px 40 px;
+  background-color: #FAF9F0;
+  margin-top: 20px;
+  width:60%;
+  border-radius:10px;
+  margin-left: 100px;
+}
+
+.result_header{
+font-size: 22px;
+font-weight: 600;
+margin-top: 10px;
+padding: 3px 10px;
+margin-left: 35px;
+}
+
+.result_text {
+  margin-block: 20px;
+  margin-inline: 50px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.result_text_error {
+  margin-block: 30px;
+  margin-inline: 150px;
+  font-size: 24px;
+  font-weight: 600;
+  color: maroon;
+  background-color: #FAF9F0;
+  padding: 30px 50px;
+  border-radius: 10px;
+  width:70%;
+}
+
+/* User app */
+
+.user_app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user_app > table {
+  border-collapse: collapse;
+  margin: 30px;
+  width: 70%;
+}
+
+.user_app > table > thead {
+  font-size: 16px;
+  height: 50px;
+}
+
+.table_row > td {
+  padding: 10px 15px;
+  background-color: #f7f7f7;
+}
+
+
+
+.table_link {
+  background-color: #43766C;
+  padding: 8px 35px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.table_link:hover{
+  background-color: #495e57;
+    color:black;
+    border-radius: 5px solid black;
+}
+
+.remove_button {
+  background-color: #A80038;
+  padding: 6px 15px;
+  border-radius: 50px;
+  text-decoration: none;
+  color:whitesmoke;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.remove_button:hover{
+background-color: #CACACA;
+color:black;
+}
+
+/* update_app */
+
+.update_app > form {
+  margin-block: 50px;
+  margin-inline: 100px;
+}
+
+.mobile_update {
+  font-size: 20px;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+.mobile_update > label {
+  margin-inline: 30px;
+}
+
+.mobile_update > input {
+  padding: 10px 50px;
+  border-radius: 50px;
+  background-color: #fcfcfc;
+  font-size: 14px;
+}
+
+.email_update {
+  font-size: 20px;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+.email_update > label {
+  margin-left: 30px;
+  margin-right: 45px;
+}
+
+.email_update > input {
+  padding: 10px 50px;
+  border-radius: 50px;
+  background-color: #fcfcfc;
+  font-size: 14px;
+}
+
+.update_button {
+  padding: 10px 100px;
+  margin-left: 182px;
+  margin-top: 10px;
+  border-radius: 50px;
+  background-color: #43766C;
+  cursor: pointer;
+  color: whitesmoke;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.update_button:hover {
+  background-color: #495e57;
+  color:black
+}
